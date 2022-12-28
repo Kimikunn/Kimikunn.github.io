@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://www.Kimikunn.github.io/sitemap.xml
