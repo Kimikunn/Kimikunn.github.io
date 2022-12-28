@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Don&#39;t Let Me Down</title>
-    <link>https://www.Kimikunn.github.io/</link>
-    <description>Recent content on Don&#39;t Let Me Down</description>
+    <title>Posts on Don&#39;t Let Me Down</title>
+    <link>https://www.Kimikunn.github.io/posts/</link>
+    <description>Recent content in Posts on Don&#39;t Let Me Down</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 28 Dec 2022 14:48:49 +0800</lastBuildDate><atom:link href="https://www.Kimikunn.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Dec 2022 14:48:49 +0800</lastBuildDate><atom:link href="https://www.Kimikunn.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>关于blog的一些操作方法</title>
       <link>https://www.Kimikunn.github.io/posts/%E5%85%B3%E4%BA%8Eblog%E7%9A%84%E4%B8%80%E4%BA%9B%E6%93%8D%E4%BD%9C%E6%96%B9%E6%B3%95/</link>
@@ -14,24 +14,6 @@
       
       <guid>https://www.Kimikunn.github.io/posts/%E5%85%B3%E4%BA%8Eblog%E7%9A%84%E4%B8%80%E4%BA%9B%E6%93%8D%E4%BD%9C%E6%96%B9%E6%B3%95/</guid>
       <description>关于配置文件 参考https://www.sulvblog.cn/posts/blog/build_hugo/ 参考https://github.com/adityatelange/hugo-PaperMod 关于发布文章 cd ~/blog hugo new posts/xxx.md 编辑md保存 hugo (hugo server -D查看draft，hugo server) cd public git add . git commit -m &amp;ldquo;update blog&amp;rdquo; git push origin main </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://www.Kimikunn.github.io/archive/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.Kimikunn.github.io/archive/</guid>
-      <description>--- title: &amp;#34;Archive&amp;#34; layout: &amp;#34;archives&amp;#34; summary: &amp;#34;archives&amp;#34; --- </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://www.Kimikunn.github.io/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.Kimikunn.github.io/search/</guid>
-      <description>--- title: &amp;#34;Search&amp;#34; layout: &amp;#34;search&amp;#34; --- </description>
     </item>
     
   </channel>
