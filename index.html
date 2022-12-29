@@ -127,6 +127,21 @@
 
 <article class="first-entry"> 
   <header class="entry-header">
+    <h2>nginx笔记
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>mac下nginx的下载安装和使用 使用brew安装 安装 brew install nginx 检查nginx配置信息 brew info nginx 安装的文件路径 配置文件：/opt/homebrew/etc/nginx/nginx.conf
+默认服务器地址：/opt/homebrew/var/www
+安装路径：/opt/homebrew/Cellar/nginx/1.23.3
+配置文件nginx.conf # 进程数（与核相关） worker_processes 1; # pid pid /opt/homebrew/etc/nginx/logs/nginx.pid; # 允许连接数 events { worker_connections 1024; } # http配置部分 http { # 引入配置文件与返回类型 include mime.types; default_type application/octet-stream; # 超时时间 keepalive_timeout 65; # server部分 server { # 端口号 listen 8080; # 服务器地址 server_name 0.0.0.0; # 路由 location / { # 项目根目录 root /Users/kimi/Documents/GitHub/generate-visualization/backend/dist; # index index index.html index.htm; } # ——————————————————————————也可写成———————————————————————————————————— #root /Users/kimi/Documents/GitHub/generate-visualization/backend/; #location /dist { # root /Users/kimi/Documents/GitHub/generate-visualization/backend/dist; # index index....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-12-28 16:43:49 +0800 CST'>December 28, 2022</span></footer>
+  <a class="entry-link" aria-label="post link to nginx笔记" href="https://www.Kimikunn.github.io/posts/nginx%E7%AC%94%E8%AE%B0/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2>关于blog的一些操作方法
     </h2>
   </header>
