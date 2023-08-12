@@ -25,7 +25,7 @@
 </head>
 
 <body>
-    <audio autoplay="autopaly">
+    <audio id="myAudio" autoplay="autopaly">
         <source src="music/love.mp3" type="audio/mp3" />
     </audio>
     <div id="main">
@@ -36,7 +36,7 @@
                         <span class="say">
                             <h1>亲爱的轩轩宝宝，</h1>
                         </span><br>
-                        <span class="say">在这个特殊的日子里，我想对你说。</span><br><br>
+                        <span class="say">在这个特殊的日子里，我想对你说：</span><br><br>
                         <span class="say">你的存在让我的生活变得如此美好又充实。</span><br><br>
                         <span class="say">你对我的陪伴和相互依靠，</span><br><br>
                         <span class="say">让我感受到了无比的幸福和温暖。</span><br><br>
@@ -45,7 +45,7 @@
                         <span class="say">在你的生日里，我愿所有的幸福都陪伴着你，</span><br><br>
                         <span class="say">愿你的未来充满阳光和希望。</span><br><br>
                         <span class="say">继续一起创造更多美好的回忆！</span><br><br>
-                        <span class="say"><span class="space"></span>爱你，张逸骋</span><br>
+                        <span class="say"><span class="space"></span>By 张逸骋</span><br>
                         <span class="say">
                             <h1>赵嘉轩 生日快乐!</h1>
                         </span><br>
@@ -61,6 +61,7 @@
     </script>
 
     <script>
+        document.getElementById("myAudio").volume = 0.4;
         (function () {
             var canvas = $('#canvas');
 
