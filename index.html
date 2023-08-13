@@ -25,6 +25,8 @@
 </head>
 
 <body>
+    <button id="playButton"
+        style="border: none; outline: none; background: none; padding: 0; cursor: pointer">❤️</button>
     <audio id="myAudio" autoplay="autopaly" muted playsinline>
         <source src="music/love.mp3" type="audio/mp3" />
     </audio>
@@ -62,6 +64,14 @@
 
     <script>
         document.getElementById("myAudio").volume = 0.2;
+        const audio = document.getElementById("myAudio");
+        const playButton = document.getElementById("playButton");
+        playButton.addEventListener("click", () => {
+            // Unmute the audio
+            audio.muted = false;
+            // Start playing
+            audio.play();
+        });
         window.onload = () => {
             document.getElementById('myAudio').muted = false;
         }
