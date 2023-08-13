@@ -25,7 +25,7 @@
 </head>
 
 <body>
-    <audio id="myAudio" autoplay="autopaly">
+    <audio id="myAudio" autoplay="autopaly" muted playsinline>
         <source src="music/love.mp3" type="audio/mp3" />
     </audio>
     <div id="main">
@@ -61,7 +61,10 @@
     </script>
 
     <script>
-        document.getElementById("myAudio").volume = 0.4;
+        document.getElementById("myAudio").volume = 0.2;
+        window.onload = () => {
+            document.getElementById('myAudio').muted = false;
+        }
         (function () {
             var canvas = $('#canvas');
 
